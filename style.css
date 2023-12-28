@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFECB;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.emoji{
+    font-size: 200px;
+    position: relative;
+}
+nav{
+    background-color: #423E3B;
+    color: #FFE2D1;
+    text-align: center;
+    height: 60px;
+    font-size: 27px;
+    padding: 0.7%;
+}
+
+.emoji:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: #EE6352;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+    /* position: absolute;
+    top: 60%;
+    left: 35%; */
+}
+#player1, #computer{
+    /* justify-content: center;
+    align-items: center;
+    background-color: aqua; */
+    /* height: 120px;
+    width: 260px; */
+    font-size: 40px;
+    
+}
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+#msg{
+    background-color: black;
+    color: #FFFECB;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.new-game{
+    background-color: black;
+    color: #FFFECB;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 44%;
+}
+.new-game:hover{
+    cursor: pointer;
+    background-color: #0c0c2e;
+}
